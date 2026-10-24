@@ -18,7 +18,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A one-page Hebrew (RTL) promo site for an AI developers group at the Hebrew University. `index.html` is the whole site: static HTML with inline CSS and no JavaScript. Fonts load from Google Fonts. All content is placeholder.
+A one-page Hebrew (RTL) promo site for an AI developers group at the Hebrew University. `index.html` is the whole site: static HTML with inline CSS and one inline script for the AI-agent effects (hero network canvas, "live agents" console, stats count-up). The script writes to the DOM only via `textContent`/`createElement`, and respects `prefers-reduced-motion`. Fonts load from Google Fonts. All content is placeholder.
 
 Public repo: https://github.com/gilad1979/huji-ai-site (account `gilad1979`, set in local git config).
 
